@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@1,700&display=swap');
+.card{
+    width: 350px;
+    background-color:  hsl(213, 19%, 18%);
+    text-align: left;
+    padding: 30px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    height: 300px;
+   
+}
+#one{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15rem;
+}
+body{
+    background-color:hsl(216, 12%, 8%);
+    color: #fff;
+    font-weight:bold;
+    font-size:15px;
+    font-family: 'Overpass', sans-serif;
+}
+.rate-divs{
+    display: inline-flex;
+    text-align: center;
+    width: 95%;
+}
+.para .btn{
+    width: 95%;
+}
+.score{
+    width: 50px;
+    height: 50px;
+    background-color: hsl(215, 19%, 32%);
+    border-radius:70px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.score:hover{
+    background-color:hsl(25, 97%, 53%);
+}
+.rate:hover{
+    color: #fff;
+}
+p{
+    color: hsl(216, 12%, 54%);
+}
+.star-div{
+    background-color: hsl(215, 19%, 32%);
+    width: 50px;
+    height: 50px;
+   
+    border-radius:70px;
+}
+.star{
+    margin-top: 17px;
+    margin-left: 17px;
+    margin-right: 17px;
+    margin-bottom: 1px;
+}
+input{
+    width: 100%;  
+    height: 40px; 
+    border-radius: 80px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color:   hsl(25, 97%, 53%);
+    color: #fff;
+    letter-spacing:2.5px;
+}
+input:hover{
+    background-color:   #fff; 
+    color:hsl(25, 97%, 53%);  
+}
+.btn{
+    padding-top:20px;
+    
+}
+.icon{
+    width: 150px;
+}
+.score-show{
+    text-align: center;
+    width: 50%;
+    background-color:hsl(215, 19%, 32%);
+    height:25px;
+    border-radius:80px;
+    margin-left: 90px;
+    margin-top: 25px;
+    
+}
+#card{
+    text-align: center;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    bottom:22.5rem;
+    visibility: hidden;
+}
+.live-score{
+    color:  hsl(25, 97%, 53%);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 4px;
+
+}
